@@ -7,3 +7,5 @@ https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/
 
 https://github.com/David-Desmaisons/draggable-example
 https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/vuejs.html
+
+https://kienphan.github.io/nuxtjs-firebase-authentication/
