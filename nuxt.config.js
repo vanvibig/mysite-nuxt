@@ -6,8 +6,8 @@ export default {
     head: {
         title: process.env.npm_package_name || '',
         meta: [{
-                charset: 'utf-8'
-            },
+            charset: 'utf-8'
+        },
             {
                 name: 'viewport',
                 content: 'width=device-width, initial-scale=1'
@@ -38,12 +38,18 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [
-      '~/plugins/firebase.js'
+        '~/plugins/firebase.js'
     ],
     /*
      ** Nuxt.js modules
      */
-    modules: [],
+    modules: [
+        '@nuxtjs/vuetify'
+    ],
+    // Vuetify options
+    vuetify: {
+        //  theme: { }
+    },
     /*
      ** Build configuration
      */
@@ -51,7 +57,8 @@ export default {
         /*
          ** You can extend webpack config here
          */
-        extend(config, ctx) {}
+        extend(config, ctx) {
+        }
     },
     generate: {
         dir: '../public'

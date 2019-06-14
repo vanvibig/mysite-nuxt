@@ -1,24 +1,30 @@
 {
   "name": "mysite-nuxt",
   "version": "1.0.0",
+  "private": true,
   "description": "My Site Nuxt",
   "author": "Nguyen Van Vi",
-  "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxtjs/vuetify": "^0.5.6",
     "firebase": "^6.1.1",
     "nuxt": "^2.0.0",
-    "vuedraggable": "^2.21.0"
+    "vuedraggable": "^2.21.0",
+    "vuetify": "^1.5.5"
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.9",
     "prettier": "^1.16.4",
-    "nodemon": "^1.18.9"
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vuetify-loader": "^1.2.2"
   }
 }
